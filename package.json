@@ -1,0 +1,23 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "A Facebook Messenger bot created with Express and request",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "giannoug",
+  "license": "WTFPL",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "chrono-node": "1.2.5",
+    "express": "^4.13.4",
+    "limdu": "0.9.1",
+    "node-rest-client": "2.0.1",
+    "node-schedule": "1.1.1",
+    "request": "^2.71.0",
+    "mysql": "^2.5.4",
+    "moment": "2.18.1"
+  },
+  "private": true
+}
